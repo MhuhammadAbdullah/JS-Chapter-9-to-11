@@ -3,7 +3,7 @@
 
 // var city = prompt("Please enter your city name:");
 
-// if (city.toLowerCase() === "Karachi") {
+// if (city === "Karachi") {
 //     alert("Welcome to the city of lights");
 // } else {
 //     alert("Welcome to " + city);
@@ -13,9 +13,9 @@
 
 // var gender = prompt("Please enter your gender (Male/Female):");
 
-// if (gender.toLowerCase() === "male") {
+// if (gender === "male") {
 //     alert("Good Morning Sir");
-// } else if (gender.toLowerCase() === "female") {
+// } else if (gender === "female") {
 //     alert("Good Morning Ma'am");
 // }
 
@@ -210,7 +210,7 @@
 // } else if (operation === '/') {
 //     if (secondNumber === 0) {
 //         alert("Error: Division by zero is not allowed.");
-//         result = null; 
+//         result = null;
 //     } else {
 //         result = firstNumber / secondNumber;
 //     }
@@ -218,7 +218,7 @@
 //     result = firstNumber % secondNumber;
 // } else {
 //     alert("Invalid operation entered.");
-//     result = null; 
+//     result = null;
 // }
 
 // if (result !== null) {
